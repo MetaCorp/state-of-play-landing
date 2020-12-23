@@ -27,11 +27,11 @@ class PricingBox2 extends Component {
                   {pricing.title}
                 </h6>
                 <div className="d-flex justify-content-center mb-4">
-                  <span className="h4 mb-0 mt-2">$</span>
+                  <span className="h4 mb-0 mt-2">€</span>
                   <span className="price h1 mb-0">{pricing.price}</span>
-                  <span className="h4 align-self-end mb-1">
+                  {pricing.duration && <span className="h4 align-self-end mb-1">
                     /{pricing.duration}
-                  </span>
+                  </span>}
                 </div>
                 <ul className="feature list-unstyled pl-0">
                   {pricing.features.map((feature, key) => (

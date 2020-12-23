@@ -13,45 +13,50 @@ class Pricing extends Component {
       pricings: [
         {
           id: 1,
-          title: "Free",
-          price: 0,
-          duration: "mo",
-          buttonText: "Buy Now",
+          title: "Particulier",
+          price: 4.49,
+          duration: "u",
+          buttonText: "Acheter Maintenant",
           btnLink: "",
           features: [
-            { title: "Full Access" },
-            { title: "Enhanced Security" },
-            { title: "Source Files" },
-            { title: "1 Domain Free" },
+            { title: "1 état des lieux" },
+            { title: "photos illimités" },
+            { title: "Envoi par mail des états des lieux" },
+            { title: "Signature électronique sécurisée" },
+            { title: "Interlocuteurs, nombre de biens illimités" },
           ],
         },
         {
           id: 2,
           title: "Starter",
-          price: 39,
-          duration: "mo",
-          buttonText: "Get Started",
+          price: 199,
+          duration: "an",
+          buttonText: "Acheter Maintenant",
           btnLink: "",
           isActive: true,
           features: [
-            { title: "Full Access" },
-            { title: "Source Files" },
-            { title: "Free Appointments" },
-            { title: "Enhanced Security" },
+            { title: "états des lieux illimités" },
+            { title: "photos illimités" },
+            { title: "Envoi par mail des états des lieux" },
+            { title: "Synchronisation et sauvegarde sur vos 10 tablettes ou PC" },
+            { title: "Signature électronique sécurisée" },
+            { title: "Interlocuteurs, nombre de biens illimités" },
           ],
         },
         {
           id: 3,
-          title: "PROFESSIONAL",
-          price: 59,
-          duration: "mo",
-          buttonText: "Try It Now",
+          title: "Pro",
+          price: 369,
+          duration: "an",
+          buttonText: "Acheter Maintenant",
           btnLink: "",
           features: [
-            { title: "Full Access" },
-            { title: "Enhanced Security" },
-            { title: "Source Files" },
-            { title: "1 Domain Free" },
+            { title: "états des lieux illimités" },
+            { title: "photos illimités" },
+            { title: "Envoi par mail des états des lieux" },
+            { title: "Synchronisation et sauvegarde sur vos 5 tablettes ou PC" },
+            { title: "Signature électronique sécurisée" },
+            { title: "Interlocuteurs, nombre de biens illimités" },
           ],
         },
       ],
@@ -61,12 +66,12 @@ class Pricing extends Component {
   render() {
     return (
       <React.Fragment>
-        <section className="section">
+        <section className="section" id="pricing">
           <Container>
             {/* section title */}
             <SectionTitle
-              title="Choose The Pricing Plan"
-              desc="that can provide everything you need to generate awareness, drive traffic, connect"
+              title="Choisissez votre tarif"
+              desc="pour commencer à utiliser l'application"
             />
 
             <Row className="align-items-center">

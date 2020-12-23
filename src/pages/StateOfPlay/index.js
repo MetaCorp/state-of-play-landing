@@ -58,7 +58,7 @@ class Index extends Component {
         <Feature />
 
         {/* ShowCase */}
-        <ShowCase />
+        {/* <ShowCase />
         <div className="position-relative">
           <div className="shape overflow-hidden text-white">
             <svg
@@ -72,13 +72,13 @@ class Index extends Component {
               ></path>
             </svg>
           </div>
-        </div>
+        </div> */}
 
         {/* Pricing */}
         <Pricing />
 
         {/* Testi */}
-        <Testi />
+        {/* <Testi />
         <div className="position-relative">
           <div className="shape overflow-hidden text-footer">
             <svg
@@ -92,7 +92,7 @@ class Index extends Component {
               ></path>
             </svg>
           </div>
-        </div>
+        </div> */}
       </React.Fragment>
     );
   }

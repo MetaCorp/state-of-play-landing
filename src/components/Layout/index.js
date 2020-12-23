@@ -11,7 +11,7 @@ import ThemeSwitcher from "./ThemeSwitcher";
 import FeatherIcon from "feather-icons-react";
 
 // Layout Components
-const Topbar = React.lazy(() => import("./Topbar"));
+const SimpleTopbar = React.lazy(() => import("./SimpleTopbar"));
 const NavbarPage = React.lazy(() =>
   import("../../pages/Saas Onepage/NavbarPage")
 );
@@ -49,7 +49,7 @@ class Layout extends Component {
           {this.props.location.pathname === "/index-onepage" ? (
             <NavbarPage />
           ) : (
-            <Topbar />
+            <SimpleTopbar />
           )}
 
           {this.props.children}
@@ -77,7 +77,8 @@ class Layout extends Component {
             ) {
               return <FooterWithoutMenuLightSocialOnly class="" />;
             } else {
-              return <Footer />;
+              return <FooterWithoutMenuLightSocialOnly class="" /> ;
+              {/* return <Footer / > ; */}
             }
           })()}
 

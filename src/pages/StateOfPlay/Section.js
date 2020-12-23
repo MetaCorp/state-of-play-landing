@@ -16,7 +16,7 @@ class Section extends Component {
                 <div className="title-heading mt-4">
                   <h1 className="heading mb-3" style={{ fontSize: "41px !important" }}>
                     Réaliser vos états des lieux avec{" "}
-                    <span className="text-primary">Housely</span> app
+                    <span className="text-primary">Housely</span>
                   </h1>
                   <p className="para-desc text-muted">
                     Créer et enregistrer vos états des lieux en un rien de temps grâce à Housely. Pensée pour vous accompagner en toute simplicité.

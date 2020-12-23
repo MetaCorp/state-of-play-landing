@@ -20,7 +20,8 @@ class FooterWithoutMenuLightSocialOnly extends Component {
               <Col sm="6">
                 <div className="text-sm-left">
                   <p className="mb-0">
-                    © 2019-20 Landrick. Develop by{" "}
+                    © 2020-21 Housely.
+                     {/* Develop by{" "}
                     <a
                       href="https://themesbrand.com/"
                       target="_blank"
@@ -29,12 +30,12 @@ class FooterWithoutMenuLightSocialOnly extends Component {
                     >
                       Themesbrand
                     </a>
-                    .
+                    . */}
                   </p>
                 </div>
               </Col>
 
-              <Col sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
+              {/* <Col sm="6" className="mt-4 mt-sm-0 pt-2 pt-sm-0">
                 <ul className="list-unstyled social-icon social text-sm-right mb-0">
                   <li className="list-inline-item mb-0 ml-1">
                     <Link to="#" className="rounded mr-1">
@@ -87,7 +88,7 @@ class FooterWithoutMenuLightSocialOnly extends Component {
                     </Link>
                   </li>
                 </ul>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </footer>
