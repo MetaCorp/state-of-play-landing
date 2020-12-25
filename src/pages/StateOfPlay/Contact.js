@@ -18,8 +18,9 @@ export default class Contact extends Component {
                     <span className="text-primary font-weight-bold">Housely</span>.{" "}
                 </p>
 
-                <div className="subcribe-form mt-4 pt-2">
-                  <Form>
+                <div className="mt-4 pt-2">
+                {/* <div className="subcribe-form mt-4 pt-2"> */}
+                  {/* <Form>
                     <FormGroup>
                       <input
                         type="email"
@@ -28,12 +29,13 @@ export default class Contact extends Component {
                         className="border bg-white rounded-pill"
                         required
                         placeholder="Email Address"
-                      />
-                      <Button type="submit" className="btn btn-pills btn-primary">
-                        Nous contacter
-                      </Button>
-                    </FormGroup>
-                  </Form>
+                      /> */}
+                        <a className="btn btn-pills btn-primary" href="mailto:housely.contact@gmail.com">Nous contacter</a>
+                    {/* </FormGroup>
+                  </Form> */}
+                </div>
+                <div className="mt-4">
+                  housely.contact@gmail.com
                 </div>
               </div>
             </div>
