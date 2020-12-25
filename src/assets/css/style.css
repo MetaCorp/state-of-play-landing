@@ -258,8 +258,8 @@ p {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.focus {
-  background-color: #2443ac !important;
-  border-color: #2443ac !important;
+  background-color: #2b85ab !important;
+  border-color: #2b85ab !important;
   color: #ffffff !important;
 }
 
@@ -897,13 +897,13 @@ button:not(:disabled) {
 }
 
 .ribbon.ribbon-primary span:before {
-  border-left-color: #2443ac;
-  border-top-color: #2443ac;
+  border-left-color: #2b85ab;
+  border-top-color: #2b85ab;
 }
 
 .ribbon.ribbon-primary span:after {
-  border-right-color: #2443ac;
-  border-top-color: #2443ac;
+  border-right-color: #2b85ab;
+  border-top-color: #2b85ab;
 }
 
 .ribbon.ribbon-secondary span {
@@ -1023,13 +1023,13 @@ button:not(:disabled) {
 }
 
 .ribbon.ribbon-blue span:before {
-  border-left-color: #2443ac;
-  border-top-color: #2443ac;
+  border-left-color: #2b85ab;
+  border-top-color: #2b85ab;
 }
 
 .ribbon.ribbon-blue span:after {
-  border-right-color: #2443ac;
-  border-top-color: #2443ac;
+  border-right-color: #2b85ab;
+  border-top-color: #2b85ab;
 }
 
 .ribbon.ribbon-footer span {
