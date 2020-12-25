@@ -1,6 +1,10 @@
 //
 // price.scss
 //
+
+.pricing-rates.business-rate.starter-plan:hover {
+}
+
 .pricing-rates {
     position: relative;
     z-index: 1;
@@ -11,7 +15,7 @@
     }
     &.business-rate {
         &:hover {
-            transform: scale(1.03);
+            transform: scale(1.05);
             z-index: 2;
             border-color: $primary !important;
             box-shadow: $shadow-md !important;
@@ -20,15 +24,24 @@
                 color: $primary;
             }
         }
+
+        @media (max-width: 767px) {
+            transform: scale(1) !important;
+        }
     }
+
 
     &.starter-plan {
         transform: scale(1.05);
         z-index: 2;
         border-color: $primary !important;
+
+        &:hover {
+            transform: scale(1.08);
+        }
         
         @media (max-width: 767px) {
-            transform: scale(1);
+            transform: scale(1) !important;
         }
     }
 

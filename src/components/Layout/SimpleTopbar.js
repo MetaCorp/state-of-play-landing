@@ -31,6 +31,7 @@ class Topbar extends Component {
         { id: 1, title: "Accueil", link: "/#home" },
         { id: 2, title: "Fonctionnalités", link: "/#features" },
         { id: 3, title: "Tarifs", link: "/#pricing" },
+        { id: 4, title: "Contact", link: "/#contact" },
       ],
       wishlistModal: false,
       dropdownIsOpen: false,

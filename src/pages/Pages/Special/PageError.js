@@ -18,30 +18,29 @@ class PageError extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="back-to-home rounded d-none d-sm-block">
+        {/* <div className="back-to-home rounded d-none d-sm-block">
           <Link to="/index" className="btn btn-icon btn-soft-primary">
             <i>
               <FeatherIcon icon="home" className="icons" />
             </i>
           </Link>
-        </div>
+        </div> */}
 
         <section className="bg-home d-flex align-items-center">
           <Container>
             <Row className="justify-content-center">
               <Col lg={8} md={12} className="text-center">
                 <img src={img404} className="img-fluid" alt="" />
-                <div className="text-uppercase mt-4 display-3">Oh ! no</div>
+                <div className="text-uppercase mt-4 display-3">Oh ! non</div>
                 <div className="text-capitalize text-dark mb-4 error-page">
-                  Page Not Found
+                  Page non trouvée
                 </div>
                 <p className="text-muted para-desc mx-auto">
-                  Start working with{" "}
+                  Créer et enregistrer vos états des lieux en un rien de temps grâce à{" "}
                   <span className="text-primary font-weight-bold">
-                    Landrick
-                  </span>{" "}
-                  that can provide everything you need to generate awareness,
-                  drive traffic, connect.
+                    Housely
+                  </span>.{" "}
+                  Pensée pour vous accompagner en toute simplicité.
                 </p>
               </Col>
             </Row>

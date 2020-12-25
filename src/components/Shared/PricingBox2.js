@@ -12,8 +12,8 @@ class PricingBox2 extends Component {
             <Card
               className={
                 pricing.isActive
-                  ? "pricing-rates starter-plan bg-light py-5 border-0 rounded text-center"
-                  : "pricing-rates bg-light py-5 border-0 rounded text-center"
+                  ? "card pricing-rates business-rate shadow pricing-rates starter-plan bg-light py-5 border-0 rounded text-center"
+                  : "card pricing-rates business-rate shadow pricing-rates bg-light py-5 border-0 rounded text-center"
               }
             >
               <CardBody>

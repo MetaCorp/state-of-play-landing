@@ -7,6 +7,7 @@ import Feature from "./Feature";
 import ShowCase from "./ShowCase";
 import Pricing from "./Pricing";
 import Testi from "./Testi";
+import Contact from "./Contact";
 
 class Index extends Component {
   constructor(props) {
@@ -93,6 +94,10 @@ class Index extends Component {
             </svg>
           </div>
         </div> */}
+
+        <Contact />
+
+
       </React.Fragment>
     );
   }
