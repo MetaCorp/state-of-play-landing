@@ -39,7 +39,7 @@ class EmailAlert extends Component {
                   <thead>
                     <tr
                       style={{
-                        backgroundColor: "#2f55d4",
+                        backgroundColor: "#34a3d1",
                         padding: "3px 0",
                         lineHeight: "68px",
                         textAlign: "center",

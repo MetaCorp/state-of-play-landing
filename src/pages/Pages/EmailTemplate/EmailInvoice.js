@@ -43,7 +43,7 @@ class EmailInvoice extends Component {
                   <thead>
                     <tr
                       style={{
-                        backgroundColor: "#2f55d4",
+                        backgroundColor: "#34a3d1",
                         padding: "3px 0",
                         lineHeight: "68px",
                         textAlign: "center",
@@ -263,7 +263,7 @@ class EmailInvoice extends Component {
                               <tr
                                 style={{
                                   backgroundColor: "rgba(47, 85, 212, 0.2)",
-                                  color: "#2f55d4",
+                                  color: "#34a3d1",
                                   overflowX: "hidden",
                                 }}
                               >

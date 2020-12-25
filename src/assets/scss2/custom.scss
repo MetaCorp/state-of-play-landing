@@ -3,7 +3,7 @@
 }
 
 li.active > a {
-  color: #2f55d4 !important;
+  color: #34a3d1 !important;
 }
 
 .pagination .active a {
@@ -68,11 +68,11 @@ a {
 }
 
 .indicator-inactive {
-  background-color: #2f55d4 !important;
+  background-color: #34a3d1 !important;
   opacity: 0.6;
 }
 .indicator-active {
-  background-color: #2f55d4 !important;
+  background-color: #34a3d1 !important;
   transform: rotate(45deg);
 }
 
@@ -93,7 +93,7 @@ a {
   border-radius: 5px !important;
 
   &:hover {
-    background-color: $primary !important;
+    background-color: #34a3d1 !important;
     svg {
       stroke: $white !important;
     }
@@ -107,7 +107,7 @@ a {
     margin-top: 2px;
     margin-left: 5px;
     fill: none;
-    stroke: $primary !important;
+    stroke: #34a3d1 !important;
   }
 }
 
@@ -139,7 +139,7 @@ a {
   .card {
     .faq {
       > .active-link {
-        color: $primary !important;
+        color: #34a3d1 !important;
       }
     }
   }
@@ -164,7 +164,7 @@ a {
 }
 .custom-dots {
   .indicator-active {
-    background-color: #2f55d4 !important;
+    background-color: #34a3d1 !important;
   }
 }
 .custom-dots {
