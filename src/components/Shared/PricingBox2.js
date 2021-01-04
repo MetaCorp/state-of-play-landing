@@ -44,9 +44,9 @@ class PricingBox2 extends Component {
                     </li>
                   ))}
                 </ul>
-                <Link to="#" className="btn btn-primary mt-4">
+                <a href={pricing.btnLink} className="btn btn-primary mt-4">
                   {pricing.buttonText}
-                </Link>
+                </a>
               </CardBody>
             </Card>
           </Col>

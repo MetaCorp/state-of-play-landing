@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Housely",
+  "name": "Réalisez vos états des lieux avec Housely",
   "icons": [
     {
       "src": "favicon.ico",

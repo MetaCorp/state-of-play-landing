@@ -7,7 +7,7 @@ import SectionTitle from "../../components/Shared/SectionTitle";
 import FeatureBox from "./feature-box";
 
 //import images
-import featureImg from "../../assets/images/app/feature.png";
+import featureImg from "../../assets/images/app/feature2.png";
 
 class Feature extends Component {
   constructor(props) {
