@@ -23,3 +23,11 @@ a {
 p {
     line-height: 1.6;
 }
+
+.home-image {
+    padding-left: 96px;
+
+    @media (max-width: 767px) {
+        padding-left: 0;
+    }
+}

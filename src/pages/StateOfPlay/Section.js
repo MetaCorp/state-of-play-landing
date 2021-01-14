@@ -35,7 +35,7 @@ class Section extends Component {
                 </div>
               </Col>
               <Col lg={6} md={5} className="mt-4 pt-2 mt-sm-0 pt-sm-0">
-                <div className="text-md-right text-center" style={{ paddingLeft: 96 }}>
+                <div className="text-md-right text-center home-image">
                   <img src={homeImage} className="img-fluid" alt="" />
                 </div>
               </Col>
